@@ -12,3 +12,4 @@ C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\re
 C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\Estructura tarea 1 2025.pdb
 C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\Estructura tarea 1 2025.genruntimeconfig.cache
 C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\ref\Estructura tarea 1 2025.dll
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\Estructura tarea 1 2025.sourcelink.json
