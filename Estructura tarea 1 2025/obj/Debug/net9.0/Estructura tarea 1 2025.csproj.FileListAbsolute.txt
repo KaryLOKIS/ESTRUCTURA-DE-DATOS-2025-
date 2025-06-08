@@ -1,0 +1,14 @@
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\bin\Debug\net9.0\Estructura tarea 1 2025.exe
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\bin\Debug\net9.0\Estructura tarea 1 2025.deps.json
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\bin\Debug\net9.0\Estructura tarea 1 2025.runtimeconfig.json
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\bin\Debug\net9.0\Estructura tarea 1 2025.dll
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\bin\Debug\net9.0\Estructura tarea 1 2025.pdb
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\Estructura tarea 1 2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\Estructura tarea 1 2025.AssemblyInfoInputs.cache
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\Estructura tarea 1 2025.AssemblyInfo.cs
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\Estructura tarea 1 2025.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\Estructura tarea 1 2025.dll
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\refint\Estructura tarea 1 2025.dll
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\Estructura tarea 1 2025.pdb
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\Estructura tarea 1 2025.genruntimeconfig.cache
+C:\Users\Usuario\estructura de datos\Estructura tarea 1 2025\obj\Debug\net9.0\ref\Estructura tarea 1 2025.dll
