@@ -1,65 +1,57 @@
 ﻿
 using System;
 
-namespace FigurasGeometricas
+class Estudiante
 {
-    // Clase que representa un Círculo
-    public class Circulo
+    public int Id;
+    public string Nombres;
+    public string Apellidos;
+    public string Direccion;
+    public string[] Telefonos = new string[3]; // Array de teléfonos
+
+    public void IngresarDatos()
     {
-        private double radio;
+        Console.Write("Ingrese ID: ");
+        Id = int.Parse(Console.ReadLine());
 
-        public Circulo(double radio)
-        {
-            this.radio = radio;
-        }
+        Console.Write("Ingrese nombres: ");
+        Nombres = Console.ReadLine();
 
-        public double CalcularArea()
-        {
-            return Math.PI * radio * radio;
-        }
+        Console.Write("Ingrese apellidos: ");
+        Apellidos = Console.ReadLine();
 
-        public double CalcularPerimetro()
+        Console.Write("Ingrese dirección: ");
+        Direccion = Console.ReadLine();
+
+        Console.WriteLine("Ingrese los 3 números de teléfono:");
+        for (int i = 0; i < Telefonos.Length; i++)
         {
-            return 2 * Math.PI * radio;
+            Console.Write($"Teléfono {i + 1}: ");
+            Telefonos[i] = Console.ReadLine();
         }
     }
 
-    // Clase que representa un Rectángulo
-    public class Rectangulo
+    public void MostrarDatos()
     {
-        private double baseRect;
-        private double altura;
-
-        public Rectangulo(double baseRect, double altura)
+        Console.WriteLine("\n--- Datos del Estudiante ---");
+        Console.WriteLine($"ID: {Id}");
+        Console.WriteLine($"Nombres: {Nombres}");
+        Console.WriteLine($"Apellidos: {Apellidos}");
+        Console.WriteLine($"Dirección: {Direccion}");
+        Console.WriteLine("Teléfonos:");
+        for (int i = 0; i < Telefonos.Length; i++)
         {
-            this.baseRect = baseRect;
-            this.altura = altura;
-        }
-
-        public double CalcularArea()
-        {
-            return baseRect * altura;
-        }
-
-        public double CalcularPerimetro()
-        {
-            return 2 * (baseRect + altura);
+            Console.WriteLine($" - {Telefonos[i]}");
         }
     }
+}
 
-    class Program
+class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Circulo miCirculo = new Circulo(5);
-            Console.WriteLine("Círculo:");
-            Console.WriteLine("Área: " + miCirculo.CalcularArea());
-            Console.WriteLine("Perímetro: " + miCirculo.CalcularPerimetro());
-
-            Rectangulo miRectangulo = new Rectangulo(4, 3);
-            Console.WriteLine("\nRectángulo:");
-            Console.WriteLine("Área: " + miRectangulo.CalcularArea());
-            Console.WriteLine("Perímetro: " + miRectangulo.CalcularPerimetro());
-        }
+        Estudiante estudiante = new Estudiante();
+        estudiante.IngresarDatos();
+        estudiante.MostrarDatos();
     }
 }
